@@ -1,0 +1,295 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Digital Portfolio - S.Vishnu</title>
+
+  <meta name="description" content="Personal Digital Portfolio Website for S.Vishnu (BCA)" />
+
+  <style>
+
+    :root {
+
+      --main-color: violet;
+
+      --bg-color: #fdfdfd;
+
+      --text-color: #222;
+
+    }
+
+    body {
+
+      margin: 0;
+
+      font-family: Arial, sans-serif;
+
+      background: var(--bg-color);
+
+      color: var(--text-color);
+
+    }
+
+    header {
+
+      background: var(--main-color);
+
+      color: white;
+
+      padding: 20px;
+
+      text-align: center;
+
+    }
+
+    nav {
+
+      display: flex;
+
+      justify-content: center;
+
+      gap: 20px;
+
+      background: #eee;
+
+      padding: 10px;
+
+    }
+
+    nav a {
+
+      text-decoration: none;
+
+      color: var(--text-color);
+
+      font-weight: bold;
+
+    }
+
+    nav a:hover {
+
+      color: var(--main-color);
+
+    }
+
+    section {
+
+      padding: 40px 20px;
+
+      max-width: 900px;
+
+      margin: auto;
+
+    }
+
+    h2 {
+
+      color: var(--main-color);
+
+      border-bottom: 2px solid var(--main-color);
+
+      display: inline-block;
+
+      margin-bottom: 20px;
+
+    }
+
+    .profile {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 20px;
+
+      flex-wrap: wrap;
+
+    }
+
+    .profile img {
+
+      width: 150px;
+
+      height: 150px;
+
+      border-radius: 50%;
+
+      border: 5px solid var(--main-color);
+
+    }
+
+    .skills span {
+
+      display: inline-block;
+
+      background: var(--main-color);
+
+      color: white;
+
+      padding: 5px 10px;
+
+      margin: 5px;
+
+      border-radius: 8px;
+
+    }
+
+    .projects .card {
+
+      border: 1px solid #ccc;
+
+      border-radius: 10px;
+
+      padding: 20px;
+
+      margin: 10px 0;
+
+      background: #fff;
+
+    }
+
+    .resume-btn {
+
+      background: var(--main-color);
+
+      color: white;
+
+      padding: 10px 20px;
+
+      border: none;
+
+      border-radius: 5px;
+
+      cursor: pointer;
+
+      font-size: 16px;
+
+    }
+
+    .resume-btn:hover {
+
+      background: #c71585;
+
+    }
+
+    footer {
+
+      background: #222;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 15px;
+
+      margin-top: 40px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Digital Portfolio</h1>
+
+    <p>S.Vishnu | BCA | Mazharul Uloom College</p>
+
+  </header>
+
+  <nav>
+
+    <a href="#about">About</a>
+
+    <a href="#skills">Skills</a>
+
+    <a href="#projects">Projects</a>
+
+    <a href="#contact">Contact</a>
+
+  </nav>
+
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="profile">
+
+      <img src="https://i.postimg.cc/gk7DzmR7/IMG-20250909-134704.jpg" alt="Profile Picture">
+
+      <p>Hello! I am <b>S.Vishnu</b>, a BCA student at Mazharul Uloom College. This is my personal digital portfolio showcasing my academic details, technical skills, and projects.</p>
+
+    </div>
+
+  </section>
+
+  <section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skills">
+
+      <span>HTML</span>
+
+      <span>CSS</span>
+
+      <span>JavaScript</span>
+
+      <span>PHP</span>
+
+      <span>MySQL</span>
+
+    </div>
+
+  </section>
+
+  <section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+      <div class="card">
+
+        <h3>Personal Digital Portfolio Website</h3>
+
+        <p>This project showcases my skills, academic details, and projects in an interactive online format.</p>
+
+        <a href="#" style="color:var(--main-color); font-weight:bold;">GitHub Link</a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="contact">
+
+    <h2>Contact</h2>
+
+    <p>Email: <a href="mailto:vishnuvishnu9142006@gmail.com">vishnuvishnu9142006@gmail.com</a></p>
+
+    <p>Phone: +91-9655124327</p>
+
+    <button class="resume-btn">Download Resume</button>
+
+  </section>
+
+  <footer>
+
+    <p>© 2025 S.Vishnu | Digital Portfolio</p>
+
+  </footer>
+
+</body>
+
+</html>
